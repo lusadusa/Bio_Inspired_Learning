@@ -15,6 +15,7 @@ A list of the operations that I performed before executing effectively the noteb
   ```
   pip install gym[box2d]
   ```
+  If a message of error popped up after running this line, ignore it and go on since it doesn't affect the behaviour of the code.  
 ## Explanation
 - *reinforce.ipynb* is the notebook to run to obtain the results.
 - *utils.py* and *parallel_env.py* are auxiliary files from which some useful functions are called in the main script.
