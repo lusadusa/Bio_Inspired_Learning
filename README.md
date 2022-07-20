@@ -1,7 +1,7 @@
 # Bio_Inspired_Learning
 
 ## About this project
-Individual project of Matteo Lusvarghi (5470641) for Bio-Inspired Learning Course. 
+Individual project of Matteo Lusvarghi (5470641) for Bio-Inspired Intelligence and Learning for Aerospace Application Course. 
   The hereby project is an implementation of the REINFORCE algorithm and its application to the Lunar Lander environment
 from the box2d folder of the OpenAI gym library. 
   The implications and the results obtained from this simulation will be analyzed in the correspondent report. 
@@ -14,5 +14,7 @@ A list of the necessary things to do before running the script:
   pip install gym[box2d]
   ```
 ## Explanation
-The main file to run to obtain the results is *reinforce.py*. *utils.py* and *parallel_env.py* are auxiliary files from which some
-useful functions are called in the main script.
+- *reinforce.py* is the main file to run to obtain the results.
+- *utils.py* and *parallel_env.py* are auxiliary files from which some useful functions are called in the main script.
+- *gym_master* is the folder inside of which all the documentation regarding the openAI gym library is stored, including the 
+  Lunar Lander environment script.
