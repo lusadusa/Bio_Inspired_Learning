@@ -7,14 +7,16 @@ from the box2d folder of the OpenAI gym library.
   The implications and the results obtained from this simulation will be analyzed in the correspondent report. 
 
 ## Prerequisites
-A list of the necessary things to do before running the script:
-- install the *pytorch* library 
-- use the following line of code to install the box2d environments in order to access the Lunar Lander one
+A list of the operations that I performed before executing effectively the notebook:
+- use anaconda to create a python environment 
+- install the following packages in the environment: *torch* and *gym*
+- use Jupyter to execute the notebook
+- use the following line of code to install the box2d folder in order to access the Lunar Lander environment
   ```
   pip install gym[box2d]
   ```
 ## Explanation
-- *reinforce.py* is the main file to run to obtain the results.
+- *reinforce.ipynb* is the notebook to run to obtain the results.
 - *utils.py* and *parallel_env.py* are auxiliary files from which some useful functions are called in the main script.
 - *gym_master* is the folder inside of which all the documentation regarding the openAI gym library is stored, including the 
   Lunar Lander environment script.
