@@ -8,7 +8,7 @@ from the box2d folder of the OpenAI gym library.
 
 ## Prerequisites
 A list of the necessary things to do before running the script:
-- *pytorch* library insalled
+- install the *pytorch* library 
 - use the following line of code to install the box2d environments in order to access the Lunar Lander one
   ```
   pip install gym[box2d]
