@@ -14,4 +14,5 @@ A list of the necessary things to do before running the script:
   pip install gym[box2d]
   ```
 ## Explanation
-The main file to run to obtain the results is *reinforce.py*. *utils.py* and *parallel_env.py* are support files from ehich 
+The main file to run to obtain the results is *reinforce.py*. *utils.py* and *parallel_env.py* are auxiliary files from which some
+useful functions are called in the main script.
